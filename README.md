@@ -98,7 +98,7 @@ python examples/basic_usage.py
 
 Commercial license available with different tiers based on organization size and usage. See [LICENSE](LICENSE) for details.
 
-Contact: licensing@example.com
+Contact: vincenzo.gallo77@hotmail.com
 
 ## Performance
 

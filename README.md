@@ -1,6 +1,7 @@
 # The Stack Processed v2
 
 **104,885 curated code samples from The Stack dataset**
+questo è un dataset in try version di un datest enterprice da 1,4Tb
 
 [![HuggingFace](https://img.shields.io/badge/🤗%20Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/vinsblack/The_Stack_Processed-v2)
 [![License](https://img.shields.io/badge/License-Commercial-blue)](LICENSE.md)

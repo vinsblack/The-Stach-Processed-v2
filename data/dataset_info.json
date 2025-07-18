@@ -1,0 +1,11 @@
+{
+  "default": {
+    "description": "The Stack Processed V2: Balanced sample from The Stack v2",
+    "splits": {
+      "train": {
+        "name": "train",
+        "num_examples": 104885
+      }
+    }
+  }
+}

@@ -43,7 +43,7 @@ Dataset: https://huggingface.co/datasets/vinsblack/The_Stack_Processed-v2
 
 ## 📞 **Contact & Licensing**
 
-- 📧 **General Inquiries**: vincenzo.gallo77@hotmail.com
+- 📧 **General Inquiries**: vincenzo.gallo7@hotmail.com
 - 💼 **Commercial Licensing**: vincenzo.gallo77@hotmail.com  
 - 🎓 **Academic Partnerships**: vincenzo.gallo77@hotmail.com
 - 🛠️ **Technical Support**: vincenzo.gallo77@hotmail.com
@@ -86,7 +86,6 @@ Dataset: https://huggingface.co/datasets/vinsblack/The_Stack_Processed-v2
 
 ---
 
-**For custom licensing arrangements, volume discounts, or enterprise agreements, contact business@vinsblack.dev**
 
 **Last updated**: January 2025  
 **Version**: 2.0

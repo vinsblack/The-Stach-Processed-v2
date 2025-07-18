@@ -4,7 +4,7 @@
 
 ## 📋 **License Summary**
 
-This dataset (104,885 high-quality code samples) is available under **Commercial License** for professional and academic use.
+This dataset (104,885 high-quality code samples) is a TRY VERSION of dataset 1,4TB Enterprice available under **Commercial License** for professional and academic use.
 
 ## 🏷️ **Pricing Tiers**
 

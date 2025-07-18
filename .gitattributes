@@ -1,5 +1,4 @@
-# Crea .gitignore
-cat > .gitignore << EOF
+
 # Python
 __pycache__/
 *.py[cod]
@@ -31,4 +30,4 @@ Thumbs.db
 # Cache
 cache/
 .cache/
-EOF
+

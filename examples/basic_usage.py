@@ -8,7 +8,7 @@ Dataset: 104,885 high-quality code samples
 Author: VinsBlack
 License: Commercial License (see LICENSE file)
 """
-
+import numpy
 from datasets import load_dataset
 import pandas as pd
 from collections import Counter

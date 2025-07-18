@@ -185,9 +185,9 @@ python examples/language_detection.py   # Test classification accuracy
 
 ## 🤝 Support & Contact
 
-- 📧 **General**: contact@vinsblack.dev
-- 💼 **Licensing**: business@vinsblack.dev
-- 🛠️ **Technical**: support@vinsblack.dev
+- 📧 **General**: vincenzo.gallo77@hotmail.com
+- 💼 **Licensing**: vincenzo.gallo77@hotmail.com
+- 🛠️ **Technical**: vincenzo.gallo77@hotmail.com
 - 🐛 **Issues**: [GitHub Issues](https://github.com/vinsblack/The_Stack_Processed-v2/issues)
 
 ## 🙏 Acknowledgments

@@ -271,6 +271,9 @@ python examples/benchmark_tests.py      # Performance tests
   version={2.0.0}
 }
 ```
+![GitHub stars](https://img.shields.io/github/stars/vinsneero/Il-Stack-Elaborato-v2?style=social)
+![GitHub forks](https://img.shields.io/github/forks/vinsneero/Il-Stack-Elaborato-v2?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/vinsneero/Il-Stack-Elaborato-v2?style=social)
 
 ## 🤝 Support & Contact
 

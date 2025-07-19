@@ -1,6 +1,12 @@
+---
+license: commercial
+task_categories:
+- text-generation
+language:
+- code
 tags:
 - machine-learning
-- code-generation  
+- code-generation
 - programming
 - artificial-intelligence
 - bigcode
@@ -13,6 +19,49 @@ tags:
 - enterprise
 - high-quality
 - processed
+- the-stack
+- syntax-validation
+size_categories:
+- 100K<n<1M
+configs:
+- config_name: default
+  data_files:
+  - split: train
+    path: data/train-*
+dataset_info:
+  features:
+  - name: content
+    dtype: string
+  - name: language
+    dtype: string
+  - name: quality_score
+    dtype: float64
+  - name: repository
+    dtype: string
+  - name: path
+    dtype: string
+  - name: size_bytes
+    dtype: int64
+  - name: license
+    dtype: string
+  - name: created_date
+    dtype: string
+  - name: last_modified
+    dtype: string
+  - name: stars
+    dtype: int64
+  - name: is_test
+    dtype: bool
+  - name: complexity
+    dtype: float64
+  - name: documentation_ratio
+    dtype: float64
+  splits:
+  - name: train
+    num_examples: 104885
+  download_size: 968975616
+  dataset_size: 923694343
+---
 
 # The Stack Processed v2 🚀
 
@@ -151,47 +200,6 @@ pip install datasets>=2.0.0 pandas>=1.5.0 numpy>=1.21.0
 # Optimized for production ML pipelines
 ```
 
-## 📂 Repository Structure
-
-```
-The_Stack_Processed-v2/
-├── 📄 README.md                   # Complete documentation
-├── ⚖️ LICENSE.md                  # Commercial license (€500-15K)
-├── 📝 CHANGELOG.md                # Version history & updates
-├── 🔧 requirements.txt            # Python dependencies
-├── ⚙️ setup.py                    # Installation automation
-├── 📊 data/
-│   ├── train.parquet             # Main dataset (923.7MB)
-│   └── dataset_info.json         # HuggingFace metadata
-├── 💡 examples/
-│   ├── basic_usage.py            # Getting started guide
-│   ├── quality_analysis.py       # Advanced metrics
-│   └── benchmark_tests.py        # Performance validation
-└── 🐛 ISSUE_TEMPLATE/
-    └── bug_report.md             # Support template
-```
-
-## 🔧 Performance & Compatibility
-
-### **Loading Performance**
-- **Local loading**: 2-5 seconds (SSD)
-- **Memory usage**: ~500MB fully loaded
-- **Streaming**: Supports HuggingFace streaming
-- **Batch processing**: Optimized for large-scale ML
-
-### **Framework Compatibility**
-- ✅ **HuggingFace Datasets** (native support)
-- ✅ **Pandas** (direct DataFrame conversion)  
-- ✅ **PyTorch** (DataLoader ready)
-- ✅ **TensorFlow** (tf.data compatible)
-- ✅ **Dask** (distributed processing)
-
-### **System Requirements**
-- **Python**: 3.8+ (tested on 3.8-3.11)
-- **Memory**: 2GB RAM minimum, 4GB recommended
-- **Storage**: 1GB free space
-- **OS**: Windows, macOS, Linux (all tested)
-
 ## ⚖️ Commercial Licensing
 
 **Flexible pricing tiers for every use case:**
@@ -217,44 +225,6 @@ The_Stack_Processed-v2/
 
 [📧 Contact for licensing](mailto:vincenzo.gallo77@hotmail.com) | [📄 Full terms](LICENSE.md)
 
-## 🚨 Dataset Considerations
-
-### **Scope & Scale**
-- **Sample size**: 104K samples ideal for small-medium models
-- **Enterprise version**: 1.4TB with 10M+ samples available
-- **Language coverage**: 8 major languages, expandable
-- **Domain focus**: General-purpose programming (not domain-specific)
-
-### **Quality & Bias**
-- **Automated curation**: May miss context-specific factors
-- **Bias inheritance**: Inherits patterns from original Stack dataset
-- **Manual review**: Recommended for critical applications
-- **Continuous improvement**: Regular updates and refinements
-
-### **Usage Recommendations**
-- **Fine-tuning**: Excellent for model fine-tuning
-- **Evaluation**: Perfect as high-quality evaluation set
-- **Production**: Manual review recommended for production
-- **Research**: Ideal for academic and research projects
-
-## 📈 Benchmarks & Validation
-
-### **Quick Validation**
-```bash
-python examples/basic_usage.py          # Generate statistics
-python examples/quality_analysis.py     # Quality metrics  
-python examples/benchmark_tests.py      # Performance tests
-```
-
-### **Comparison vs Alternatives**
-
-| Dataset | Size | Quality | Speed | License | Cost |
-|---------|------|---------|-------|---------|------|
-| **Stack Processed v2** | 923MB | 91.3% | Fast | Commercial | €500+ |
-| The Stack (raw) | 4.3TB | ~60% | Slow | Open | Free |
-| GitHub Code | 2TB+ | ~70% | Medium | Restricted | N/A |
-| CodeSearchNet | 6GB | ~75% | Medium | Open | Free |
-
 ## 📚 Citation & Attribution
 
 ```bibtex
@@ -277,17 +247,9 @@ python examples/benchmark_tests.py      # Performance tests
 - 🐛 **Bug Reports**: [GitHub Issues](https://github.com/vinsblack/The_Stack_Processed-v2/issues)
 - 🔗 **Enterprise Dataset**: Contact for 1.4TB full version
 
-### **Response Times**
-- **Academic**: 5 business days
-- **Startup**: 48 hours  
-- **Professional**: 24 hours
-- **Enterprise**: Same day
-
 ## 🙏 Acknowledgments
 
 This dataset builds upon [The Stack v2](https://huggingface.co/datasets/bigcode/the-stack-v2) by the [BigCode Project](https://www.bigcode-project.org/). We thank the open-source community and Software Heritage for making this foundation possible.
-
-Special thanks to the contributors who helped validate and improve this dataset.
 
 ---
 

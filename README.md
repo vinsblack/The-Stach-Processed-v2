@@ -1,3 +1,19 @@
+tags:
+- machine-learning
+- code-generation  
+- programming
+- artificial-intelligence
+- bigcode
+- training-data
+- curated
+- commercial-license
+- python
+- javascript
+- cpp
+- enterprise
+- high-quality
+- processed
+
 # The Stack Processed v2 🚀
 
 **104,885 professionally curated code samples from The Stack dataset**  
